@@ -5,6 +5,7 @@ namespace Knp\Component\Pager\Event\Subscriber\Paginate;
 use ModelCriteria;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use Knp\Component\Pager\PaginatorInterface;
 use Knp\Component\Pager\Event\ItemsEvent;
 
 class PropelQuerySubscriber implements EventSubscriberInterface
